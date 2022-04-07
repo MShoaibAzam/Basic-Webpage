@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn HTML CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Smooch+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="main-header">
+        <h1>📘 The Code Magazine</h1>
+        <nav class="nav-items">
+          <a href="">Blog</a>
+          <a href="">Pricing</a>
+          <a href="">About us</a>
+          <a href="">Contact us</a>
+        </nav>
+      </header>
+      <article>
+        <h2 class="second-header">The Basic Language of the Web: HTML</h2>
+        <div class="author-container">
+          <img
+            src="img/author-pic.png"
+            alt="Portrait of author"
+            height="50px"
+            width="auto"
+            class="author-img"
+          />
+          <p id="author">
+            Poster by <strong>Shoaib Azam</strong> on Monday, 4th April 2022
+          </p>
+        </div>
+        <img
+          src="img/post-img.jpg"
+          alt="Code on screen"
+          width="500"
+          height="200"
+          class="post-img"
+        />
+        <p>
+          All modern websites and web applications are built using three
+          <em>fundamental</em>
+          technologies: HTML, CSS and JavaScript. These are the languages of the
+          web.
+        </p>
+        <p>
+          In this post, let's focus on HTML. We will learn what HTML is all
+          about, and why you too should learn it.
+        </p>
+        <h3>What is HTML?</h3>
+        <p>
+          HTML stands for <strong>H</strong>yper<strong>T</strong>ext
+          <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+          language that web developers use to structure and describe the content
+          of a webpage (not a programming language).
+        </p>
+        <p>
+          HTML consists of elements that describe different types of content:
+          paragraphs, links, headings, images, video, etc. Web browsers
+          understand HTML and render HTML code as websites.
+        </p>
+        <p>In HTML, each element is made up of 3 parts:</p>
+        <ol>
+          <li class="first-li">The opening tag</li>
+          <li>The closing tag</li>
+          <li>The actual element</li>
+        </ol>
+        <p>
+          You can learn more at
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            target="_blank"
+            class="mdn"
+            >MDN Web Docs</a
+          >
+        </p>
+        <h3>Why should you learn HTML?</h3>
+        <p>
+          There are countless reasons for learning the fundamental language of
+          the web. Here are 5 of them:
+        </p>
+        <ul>
+          <li class="first-li">
+            To be able to use the fundamental web dev language
+          </li>
+          <li>
+            To hand-craft beautiful websites instead of relying on tools like
+            Worpress or Wix
+          </li>
+          <li>To build web applications</li>
+          <li>To impress friends</li>
+          <li>To have fun 😃</li>
+        </ul>
+        <p>Hopefully you learned something new here. See you next time!</p>
+      </article>
+      <aside>
+        <h4>Related posts</h4>
+        <ul class="related">
+          <li class="related-post">
+            <img
+              src="img/related-1.jpg"
+              alt="Person programming"
+              width="75"
+              height="75"
+            />
+            <div>
+              <a href="" class="related-link">How to Learn Web Development</a>
+              <p class="related-author">By M. Shoaib Azam</p>
+            </div>
+          </li>
+          <li class="related-post">
+            <img
+              src="img/related-2.jpg"
+              alt="Lightning"
+              width="75"
+              height="75"
+            />
+            <div>
+              <a href="" class="related-link">The Unknown Powers of CSS</a>
+              <p class="related-author">By Rana Hamza</p>
+            </div>
+          </li>
+          <li class="related-post">
+            <img
+              src="img/related-3.jpg"
+              alt="JavaScript code on a screen"
+              width="75"
+              height="75"
+            />
+            <div>
+              <a href="" class="related-link">Why JavaScript is Awesome</a>
+              <p class="related-author">By Akif Bhatti</p>
+            </div>
+          </li>
+        </ul>
+      </aside>
+    </div>
+    <!-- *
+      *
+      *
+      *
+      * -->
+    <h2 class="register">REGISTER FREE OR PURCHASE PREMIUM</h2>
+    <div class="pricing-tables">
+      <div class="col-1">
+        <p class="pricing-heading">BASIC PlAN</p>
+        <p class="learn">HTML, CSS & JS</p>
+        <div class="per-month">
+          <p class="learn">$0</p>
+          <p class="small-text">/month</p>
+        </div>
+        <ul class="pricing-features">
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-yes"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
+            Single User
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-yes"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
+            5GB Storage
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-yes"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
+            Community Access
+          </li>
+          <li class="features-no">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-no"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+            Unlimited Private Projects
+          </li>
+          <li class="features-no">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-no"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+            Free Subdomain
+          </li>
+          <li class="features-no">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-no"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+            Monthly Status Report
+          </li>
+          <li class="features-no">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-no"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+            Dedicated Phone Support
+          </li>
+        </ul>
+      </div>
+      <!-- *
+      *
+      *
+      *
+      * -->
+      <!-- *
+      *
+      *
+      *
+      * -->
+      <div class="col-1">
+        <p class="pricing-heading">PRO PlAN</p>
+        <p class="learn">HTML, CSS & JS</p>
+        <div class="per-month">
+          <p class="learn">$9</p>
+          <p class="small-text">/month</p>
+        </div>
+        <ul class="pricing-features">
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-yes"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
+            Single User
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-yes"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
+            5GB Storage
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-yes"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
+            Community Access
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-yes"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
+            Unlimited Private Projects
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-yes"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
+            Free Subdomain
+          </li>
+          <li class="features-no">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-no"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+            Monthly Status Report
+          </li>
+          <li class="features-no">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-no"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+            Dedicated Phone Support
+          </li>
+        </ul>
+      </div>
+      <!-- *
+      *
+      *
+      *
+      * -->
+      <!-- *
+      *
+      *
+      *
+      * -->
+      <div class="col-1">
+        <p class="pricing-heading">ENTERPRISE PlAN</p>
+        <p class="learn">HTML, CSS & JS</p>
+        <div class="per-month">
+          <p class="learn">$19</p>
+          <p class="small-text">/month</p>
+        </div>
+        <ul class="pricing-features">
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-yes"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
+            Single User
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-yes"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
+            5GB Storage
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-yes"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
+            Community Access
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-yes"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
+            Unlimited Private Projects
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-yes"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
+            Free Subdomain
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-yes"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
+            Monthly Status Report
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon-yes"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 13l4 4L19 7"
+              />
+            </svg>
+            Dedicated Phone Support
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- *
+      *
+      *
+      *
+      * -->
+    <footer>
+      <p id="copyright">
+        Copyright &copy; Rights Reserved By The Code Magazine
+      </p>
+    </footer>
+  </body>
+</html>
