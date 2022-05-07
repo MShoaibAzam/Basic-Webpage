@@ -128,6 +128,13 @@ aside {
   border-top: 4px solid #43aa8b;
   border-bottom: 4px solid #43aa8b;
   background-color: #f6f6f6;
+  transition: transform 0.5s ease;
+}
+
+aside:hover {
+  border-top: 4px solid #2d579e;
+  border-bottom: 4px solid #2d579e;
+  transform: scale(1.03);
 }
 
 .related-post {
@@ -159,7 +166,7 @@ aside {
   grid-column: 1/-1;
 }
 
-#copyright {
+.copyrightt {
   width: 1000px;
   margin: 0 auto;
   font-size: 12px;
@@ -171,13 +178,14 @@ aside {
 }
 
 .register {
-  width: 1000px;
   background-color: #f6f6f6;
   font-size: 40px;
   text-decoration: underline;
   margin: 10px auto 30px auto;
   text-align: center;
   font-weight: lighter;
+  grid-column: -3/-1;
+  grid-template-columns: 2fr;
 }
 
 .pricing-heading {
